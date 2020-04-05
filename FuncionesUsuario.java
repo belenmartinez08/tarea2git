@@ -50,4 +50,7 @@ public class FuncionesUsuario {
             }
         }
     }
+	public void agregarSaldo(int saldo){
+        u.getSaldo()=u.getSaldo()+saldo;
+    }
 }
