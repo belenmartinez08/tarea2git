@@ -67,4 +67,8 @@ public class ClaseUsuario {
 	 this.saldo=0;
  }
  
+ //equals
+ public boolean equals (Object obj){
+	 return this.cedula==obj.getCedula();
+ 
 }	
